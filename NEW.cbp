@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NEW" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NEW" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NEW" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="convert_sequence.cpp" />
+		<Unit filename="convert_sequence.h" />
+		<Unit filename="cross_product.cpp" />
+		<Unit filename="cross_product.h" />
+		<Unit filename="eval.cpp" />
+		<Unit filename="eval.h" />
+		<Unit filename="fileprint.cpp" />
+		<Unit filename="fileprint.h" />
+		<Unit filename="get_align_boxes.cpp" />
+		<Unit filename="get_align_boxes.h" />
+		<Unit filename="get_deviation.cpp" />
+		<Unit filename="get_deviation.h" />
+		<Unit filename="get_fractions.cpp" />
+		<Unit filename="get_fractions.h" />
+		<Unit filename="get_path.cpp" />
+		<Unit filename="get_path.h" />
+		<Unit filename="get_stats.cpp" />
+		<Unit filename="get_stats.h" />
+		<Unit filename="load.cpp" />
+		<Unit filename="load.h" />
+		<Unit filename="logprint.cpp" />
+		<Unit filename="logprint.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="multiply.cpp" />
+		<Unit filename="multiply.h" />
+		<Unit filename="newpdb.dat" />
+		<Unit filename="params.h" />
+		<Unit filename="params.txt" />
+		<Unit filename="pdbread.cpp" />
+		<Unit filename="pdbread.h" />
+		<Unit filename="pdbstruct.h" />
+		<Unit filename="pdbtst.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="print_stats.cpp" />
+		<Unit filename="print_stats.h" />
+		<Unit filename="read_params.cpp" />
+		<Unit filename="read_params.h" />
+		<Unit filename="reconstruct.cpp" />
+		<Unit filename="reconstruct.h" />
+		<Unit filename="repdetect.cpp" />
+		<Unit filename="repdetect.h" />
+		<Unit filename="repremove.cpp" />
+		<Unit filename="repremove.h" />
+		<Unit filename="repstruct.h" />
+		<Unit filename="rotate_by_angles.cpp" />
+		<Unit filename="rotate_by_angles.h" />
+		<Unit filename="rotate_by_axis.cpp" />
+		<Unit filename="rotate_by_axis.h" />
+		<Unit filename="rotate_by_box.cpp" />
+		<Unit filename="rotate_by_box.cpp.save-failed" />
+		<Unit filename="rotate_by_box.h" />
+		<Unit filename="rotate_by_pairs.cpp" />
+		<Unit filename="rotate_by_pairs.h" />
+		<Unit filename="shift.cpp" />
+		<Unit filename="shift.h" />
+		<Unit filename="substitution.cpp" />
+		<Unit filename="substitution.h" />
+		<Unit filename="transform_by_history.cpp" />
+		<Unit filename="transform_by_history.h" />
+		<Unit filename="tst.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="tst.dat">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="utils.cpp" />
+		<Unit filename="utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,703 @@
+# depslib dependency file v1.0
+1598098652 source:d:\eigene dateien\programming\c++\bitcoin-predictor8\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1598112946 source:d:\eigene dateien\programming\c++\bitcoin-predictor9\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1598576539 source:d:\eigene dateien\programming\c++\bitcoin-predictor10\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1600356923 source:d:\eigene dateien\programming\c++\bitcoin-predictor11\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1600426996 source:d:\eigene dateien\programming\c++\bitcoin-predictor12\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1600789618 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1600895496 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short2\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1601029442 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short3\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1601065733 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short4\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1601407594 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short5\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1601490290 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short5 - kopie\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1601580207 source:d:\eigene dateien\programming\c++\bitcoin-predictor-short7\bitcoin-predictor\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+
+1655058507 source:d:\eigene dateien\programming\c++\function prediction\align42\convert_sequence.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"convert_sequence.h"
+
+1655058532 d:\eigene dateien\programming\c++\function prediction\align42\convert_sequence.h
+	<vector>
+	"params.h"
+
+1655749254 d:\eigene dateien\programming\c++\function prediction\align42\params.h
+	<vector>
+
+1653147821 source:d:\eigene dateien\programming\c++\function prediction\align42\cross_product.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"cross_product.h"
+
+1653137970 d:\eigene dateien\programming\c++\function prediction\align42\cross_product.h
+	<vector>
+
+1655462437 source:d:\eigene dateien\programming\c++\function prediction\align42\eval.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"eval.h"
+	"utils.h"
+
+1655462162 d:\eigene dateien\programming\c++\function prediction\align42\eval.h
+	<vector>
+	"params.h"
+	"print_stats.h"
+
+1655375852 d:\eigene dateien\programming\c++\function prediction\align42\print_stats.h
+	<vector>
+	"params.h"
+
+1655120636 d:\eigene dateien\programming\c++\function prediction\align42\utils.h
+	<vector>
+	"params.h"
+
+1655488165 source:d:\eigene dateien\programming\c++\function prediction\align42\fileprint.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"fileprint.h"
+
+1655488055 d:\eigene dateien\programming\c++\function prediction\align42\fileprint.h
+	<vector>
+	"params.h"
+	"pdbstruct.h"
+
+1654958977 d:\eigene dateien\programming\c++\function prediction\align42\pdbstruct.h
+	<string>
+	<vector>
+
+1655203652 source:d:\eigene dateien\programming\c++\function prediction\align42\get_align_boxes.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"get_align_boxes.h"
+
+1653080944 d:\eigene dateien\programming\c++\function prediction\align42\get_align_boxes.h
+	<vector>
+
+1655477848 source:d:\eigene dateien\programming\c++\function prediction\align42\get_deviation.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"get_align_boxes.h"
+	"get_deviation.h"
+	"get_stats.h"
+	"load.h"
+	"multiply.h"
+	"rotate_by_angles.h"
+	"rotate_by_axis.h"
+	"rotate_by_box.h"
+	"rotate_by_pairs.h"
+	"shift.h"
+
+1654872846 d:\eigene dateien\programming\c++\function prediction\align42\get_deviation.h
+	<string>
+	<vector>
+	"params.h"
+
+1655477268 d:\eigene dateien\programming\c++\function prediction\align42\get_stats.h
+	<vector>
+	"load.h"
+	"params.h"
+
+1654535051 d:\eigene dateien\programming\c++\function prediction\align42\load.h
+	<vector>
+	"load.h"
+	"params.h"
+	"pdbstruct.h"
+
+1653475472 d:\eigene dateien\programming\c++\function prediction\align42\multiply.h
+	<vector>
+
+1653335634 d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_angles.h
+	<vector>
+
+1653680802 d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_axis.h
+	<vector>
+
+1653679970 d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_box.h
+	<vector>
+
+1654596450 d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_pairs.h
+	<vector>
+
+1653679898 d:\eigene dateien\programming\c++\function prediction\align42\shift.h
+	<vector>
+
+1655589979 source:d:\eigene dateien\programming\c++\function prediction\align42\get_fractions.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"get_deviation.h"
+	"get_fractions.h"
+	"logprint.h"
+	"utils.h"
+
+1655476779 d:\eigene dateien\programming\c++\function prediction\align42\get_fractions.h
+	<vector>
+	"load.h"
+	"params.h"
+
+1652617551 d:\eigene dateien\programming\c++\function prediction\align42\logprint.h
+	<string>
+	"params.h"
+
+1655486918 source:d:\eigene dateien\programming\c++\function prediction\align42\get_path.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	<dirent.h>
+	"get_path.h"
+
+1655204409 d:\eigene dateien\programming\c++\function prediction\align42\get_path.h
+	<vector>
+	"params.h"
+
+1655759150 source:d:\eigene dateien\programming\c++\function prediction\align42\get_stats.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"get_stats.h"
+	"utils.h"
+
+1655203286 source:d:\eigene dateien\programming\c++\function prediction\align42\load.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"load.h"
+	"logprint.h"
+	"pdbread.h"
+	"repdetect.h"
+	"repremove.h"
+
+1655056060 d:\eigene dateien\programming\c++\function prediction\align42\pdbread.h
+	<string>
+	<vector>
+	"params.h"
+	"pdbstruct.h"
+
+1654959414 d:\eigene dateien\programming\c++\function prediction\align42\repdetect.h
+	<string>
+	<vector>
+	"params.h"
+	"pdbstruct.h"
+
+1654959397 d:\eigene dateien\programming\c++\function prediction\align42\repremove.h
+	<string>
+	<vector>
+	"params.h"
+	"pdbstruct.h"
+	"repdetect.h"
+
+1655117283 source:d:\eigene dateien\programming\c++\function prediction\align42\logprint.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"logprint.h"
+
+1655759137 source:d:\eigene dateien\programming\c++\function prediction\align42\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	<thread>
+	<future>
+	"convert_sequence.h"
+	"eval.h"
+	"fileprint.h"
+	"get_fractions.h"
+	"get_path.h"
+	"get_stats.h"
+	"load.h"
+	"logprint.h"
+	"params.h"
+	"read_params.h"
+	"reconstruct.h"
+	"substitution.h"
+	"utils.h"
+
+1655044363 d:\eigene dateien\programming\c++\function prediction\align42\read_params.h
+	<vector>
+	"params.h"
+
+1654966495 d:\eigene dateien\programming\c++\function prediction\align42\reconstruct.h
+	<string>
+	<vector>
+	"get_deviation.h"
+	"load.h"
+	"params.h"
+
+1655486526 d:\eigene dateien\programming\c++\function prediction\align42\substitution.h
+	<vector>
+	"params.h"
+
+1655202163 source:d:\eigene dateien\programming\c++\function prediction\align42\multiply.cpp
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"multiply.h"
+
+1655489673 source:d:\eigene dateien\programming\c++\function prediction\align42\pdbread.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"pdbread.h"
+
+1655750888 source:d:\eigene dateien\programming\c++\function prediction\align42\print_stats.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"print_stats.h"
+
+1655750686 source:d:\eigene dateien\programming\c++\function prediction\align42\read_params.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	<dirent.h>
+	"get_align_boxes.h"
+	"get_path.h"
+	"read_params.h"
+
+1655203441 source:d:\eigene dateien\programming\c++\function prediction\align42\reconstruct.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"load.h"
+	"reconstruct.h"
+	"shift.h"
+	"transform_by_history.h"
+	"utils.h"
+
+1653679836 d:\eigene dateien\programming\c++\function prediction\align42\transform_by_history.h
+	<vector>
+
+1655203073 source:d:\eigene dateien\programming\c++\function prediction\align42\repdetect.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"repdetect.h"
+
+1655203345 source:d:\eigene dateien\programming\c++\function prediction\align42\repremove.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"repremove.h"
+
+1653475573 source:d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_angles.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"rotate_by_angles.h"
+
+1653681562 source:d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_axis.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"rotate_by_axis.h"
+
+1655203896 source:d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_box.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"cross_product.h"
+	"multiply.h"
+	"rotate_by_angles.h"
+	"rotate_by_axis.h"
+	"rotate_by_box.h"
+	"shift.h"
+
+1655477984 source:d:\eigene dateien\programming\c++\function prediction\align42\rotate_by_pairs.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"cross_product.h"
+	"get_stats.h"
+	"multiply.h"
+	"load.h"
+	"rotate_by_axis.h"
+	"rotate_by_pairs.h"
+	"shift.h"
+
+1655201208 source:d:\eigene dateien\programming\c++\function prediction\align42\shift.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"shift.h"
+
+1655486721 source:d:\eigene dateien\programming\c++\function prediction\align42\substitution.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"substitution.h"
+
+1654536653 source:d:\eigene dateien\programming\c++\function prediction\align42\transform_by_history.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"multiply.h"
+	"rotate_by_axis.h"
+	"shift.h"
+	"transform_by_history.h"
+
+1655742388 source:d:\eigene dateien\programming\c++\function prediction\align42\utils.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<vector>
+	<cstring>
+	<algorithm>
+	<windows.h>
+	<tlhelp32.h>
+	<bits/stdc++.h>
+	<ctime>
+	"utils.h"
+
