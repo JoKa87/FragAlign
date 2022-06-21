@@ -1,0 +1,38 @@
+evaluation results. avg. rmsd: 2.46, mean error: 1.359
+avg coverage: 0.4499, mean error: 0.4124
+avg duration: 2202, mean error: 111.7
+107L-1A0F, RMSD: 3.371, coverage: 0.2444, duration: 2329
+107L-1LPY, RMSD: 0.8972, coverage: 0.9247, duration: 2120
+1A0F-1LPY, RMSD: 3.111, coverage: 0.1806, duration: 2156
+
+< used parameters:
+verbosity = 0
+log = 0
+multithreading = 1
+print_pdb = 1
+fraction_by_threshold = 0
+rmsd_threshold = 3
+rmsd_threshold2 = 3
+score_threshold = 0.5
+fractions = 10
+fractionsize = 20
+fractionsizes = 5
+fraction_step = 10
+boxwise_align_it = 10
+boxwise_align_steps = 5
+max_depth_stopcount = 2
+max_total_stopcount = 10
+rmsd_counts = 30
+seqwise_align_it = 3
+seqwise_align_steps = 5
+matrix = PAM250
+method1 = SECTION
+method2 = PAIRWISE
+data_dir = D:\\Eigene Dateien\\Programming\\C++\\function prediction\\align42\\
+run_dir = D:\\Eigene Dateien\\Programming\\C++\\function prediction\\align42\\
+filter = .ent
+rmsd_mode = BY_SEQUENCE
+final_rmsd_mode = BY_COMBINATION
+comb_steps = 24
+target_coords = {CA}
+rmsd_cutoff = 5
