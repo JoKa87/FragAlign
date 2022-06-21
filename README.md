@@ -1,12 +1,12 @@
-# FragAlign
+# FragXAlign
 Tool for protein structure alignment based on fragment-wise comparison
 
 ## Scope
 The alignment of protein structures is a prerequisite for a meaningful comparison of structural features.
-**FragAlign** was created to conduct pair-wise protein structure alignments, also for large datasets, and is based on the detection of best-aligning core fragments.
+**FragXAlign** was created to conduct pair-wise protein structure alignments, also for large datasets, and is based on the detection of best-aligning core fragments.
 
 ## Methodology
-**FragAlign** alignment comprises the following steps:
+**FragXAlign** alignment comprises the following steps:
 - select coordinates (typically *CA*)
 - detect core fragments based on substitution matrices
 - conduct pre-alignment based on averaged coordinates
@@ -15,7 +15,7 @@ The alignment of protein structures is a prerequisite for a meaningful compariso
 - apply transformations to all coordinates and print results
 
 ## Implementation
-**FragAlign** was developed in C++11 and built using mingw32-g++ compiler.
+**FragXAlign** was developed in C++11 and built using mingw32-g++ compiler.
 The executable runs on a Windows10 environment and was tested on two different machines.
 
 ## How to run
@@ -74,7 +74,7 @@ Additionally, the *alignment_stats.txt* file is printed, which contains informat
 - the used parameters are printed for a comprehensive documentation
 
 ## Example
-To illustrate the usage of **FragAlign**, the following exaple is given.
+To illustrate the usage of **FragXAlign**, the following exaple is given.
 The input and output files can be found in the *test files* sub-directory.
 - input files: *pdb1a0f.ent, pdb1lpy.ent, pdb107I.ent* and *params.txt*
 - output files:
