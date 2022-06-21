@@ -84,6 +84,7 @@ The input and output files can be found in the *test files* sub-directory.
   *alignment_stats.txt*
 
 The latter summarizes the calculation results:
+
      evaluation results. avg. rmsd: 2.46, mean error: 1.359
 
      avg coverage: 0.4499, mean error: 0.4124
