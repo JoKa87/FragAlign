@@ -98,7 +98,7 @@ Next, the results are given for each run. Here, the no. of fraction sizes was se
 
      1A0F-1LPY, RMSD: 3.111, coverage: 0.1806, duration: 1973
 
-If, the no. of fraction sizes is reduced to just *1*, performance is drastically enhanced.
+If, the no. of fraction sizes is reduced to just *1*, performance is significantly enhanced.
 
      107L-1A0F, RMSD: 3.131, coverage: 0.14, duration: 686
      
