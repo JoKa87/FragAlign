@@ -47,7 +47,7 @@ For non-specified parameter, default values are used. The parameters are explain
 * *fractionsizes* specifies the no. of different fractions to be calculated (default is 40, 45, 50, 55, 60, if sequences fulfill size restriction*
 * *fraction_step* specifies the gap between selected fraction (in order to avoid over-sampling of single region)
 
-**basic settings for transformation calculations
+**basic settings for transformation calculations**
 * *boxwise_align_it* specifies the no. of iterations for first-stage alignment*
 * *boxwise_align_steps* specifies the stepsize for iterations for first-stage alignment*
 * *seqwise_align_it* specifies the no. of iterations for second-stage alignment*
@@ -109,6 +109,5 @@ If, the no. of fraction sizes is reduced to just *1*, performance is drastically
 Lastly, the used parameters are listed (not shown here).
 
 The obtained alignment for the 107L-1LPY can be viewed in a PDB viewer (this picture was generated using PyMol Version 2.1.1. Schrödinger, LLC.).
-
 
 
