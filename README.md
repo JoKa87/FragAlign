@@ -76,7 +76,7 @@ Additionally, the *alignment_stats.txt* file is printed, which contains informat
 ## Example
 To illustrate the usage of **FragAlign**, the following exaple is given.
 The input and output files can be found in the *test files* sub-directory.
-- input files: *pdb1a0f.ent, pdb1lpy.ent, pdb107I.ent*
+- input files: *pdb1a0f.ent, pdb1lpy.ent, pdb107I.ent* and *params.txt*
 - output files:
   - alignment pair 1: *1A0F_1LPY_aligned.pdb*, *1LPY_1A0F_aligned.pdb*
   - alignment pair 2: *1A0F_107L_aligned.pdb*, *107L_1A0F_aligned.pdb*
@@ -108,6 +108,6 @@ If, the no. of fraction sizes is reduced to just *1*, performance is drastically
 
 Lastly, the used parameters are listed (not shown here).
 
-The obtained alignment for the 107L-1LPY can be viewed in a PDB viewer (this picture was generated using PyMol Version 2.1.1. Schrödinger, LLC.).
+The obtained alignment for the 107L-1LPY can be viewed in a PDB viewer (example picture was generated using PyMol Version 2.1.1. Schrödinger, LLC.).
 
-
+![see structure alignment](https://github.com/JoKa87/FragAlign/tree/main/testfiles/1LPY_1071_alignment.png)
