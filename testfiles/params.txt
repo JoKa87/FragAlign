@@ -1,6 +1,6 @@
 //*basic settings
-data_dir = D:\\Eigene Dateien\\Programming\\C++\\function prediction\\align42\\
-run_dir = D:\\Eigene Dateien\\Programming\\C++\\function prediction\\align42\\
+data_dir = https://github.com/JoKa87/FragAlign/edit/main/testfiles/
+run_dir = https://github.com/JoKa87/FragAlign/edit/main/
 filter = .ent
 verbosity = 0
 log = false
@@ -19,13 +19,6 @@ fractionsize = 20
 fractionsizes = 5
 fraction_step = 10
 
-//*basic settings for transformation calculations
-method1 = SECTION
-method2 = PAIRWISE
-rmsd_threshold = 3.0
-rmsd_threshold2 = 3.0
-max_total_stopcount = 10
-
 //*settings for box-wise transformations
 boxwise_align_it = 10
 boxwise_align_steps = 5
@@ -38,6 +31,4 @@ seqwise_align_steps = 5
 //*settings for RMSD calculation
 rmsd_mode = BY_SEQUENCE
 final_rmsd_mode = BY_COMBINATION
-comb_steps = 24
-rmsd_counts = 30
 rmsd_cutoff = 5
