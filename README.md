@@ -18,7 +18,7 @@ The alignment of protein structures is a prerequisite for a meaningful compariso
 **FragXAlign** was developed in C++11 and built using mingw32-g++ compiler.
 The executable runs on a Windows10 environment and was tested on two different machines.
 
-## How to run
+## Parameters
 All parameters as well as data location can be specified using the *params.txt* file in the main directory.
 For non-specified parameter, default values are used. The parameters are explained in the following:
 
