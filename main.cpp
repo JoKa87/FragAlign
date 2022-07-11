@@ -197,7 +197,7 @@ using namespace std;
                 if(updated_params.multithreading == false)
                 {run_results.push_back(run(updated_params, paths[i], paths[j]));}
 
-                if(updated_params.multithreading == true)
+                else if(updated_params.multithreading == true)
                 {auto future = async(run, updated_params, paths[i], paths[j]);
                 run_results.push_back(future.get());}
 
