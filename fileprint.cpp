@@ -23,9 +23,8 @@ using namespace std;
     string get_spaces(const string& input, const size_t& max_spaces)
     {
     string spaces;
-    //cout << "max_spaces " << max_spaces << " " << input.size() << " " << input << endl;
 
-		for(size_t i = 0; i < max_spaces-input.size(); i++)
+	for(size_t i = 0; i < max_spaces-input.size(); i++)
         {spaces += " ";}
 
     return spaces;
@@ -47,10 +46,10 @@ using namespace std;
             if(dotcheck == 0 || (dotcheck == 1 && digitcount < digits))
             {teststr += testletter;}
 
-            if(dotcheck == 1)
+            else if(dotcheck == 1)
             {digitcount++;}
 
-            if(testletter.compare(".") == 0)
+            else if(testletter.compare(".") == 0)
             {dotcheck = 1;}
         i++;
         } while(i < valuestr.size());
