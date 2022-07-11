@@ -56,7 +56,6 @@ using namespace std;
     {
     vector<vector<vector<float> > > half_by_x (2, (vector<vector<float> > (3, (vector<float> (8, 0)))));
     vector<float>  startcoords = {full_box[0][0][0], full_box[0][1][0], full_box[0][2][0]};
-    //cout << full_box.size() << " " << full_box[0].size() << " " << full_box[0][0].size() << endl;
 
         for(size_t i = 0; i < 2; i++)
         {
