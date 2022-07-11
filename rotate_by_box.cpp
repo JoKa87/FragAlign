@@ -131,7 +131,7 @@ using namespace std;
                         param_history[(int) param_history[0][0]+1][4] = rot_ax[2];
                         param_history[0][0]++;}
 
-                        if(dist_ccw > dist_clw)
+                        else if(dist_ccw > dist_clw)
                         {rotated_matrix = multiply.out(rotated_matrix, rotation_matrix_clw);
                         param_history[(int) param_history[0][0]+1][0] = 2;
                         param_history[(int) param_history[0][0]+1][1] = -deg(angle);
