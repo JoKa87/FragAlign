@@ -112,7 +112,7 @@
                     step2 += j;
                     }
 
-                    if(offset < 0)
+                    else if(offset < 0)
                     {
                     size_t j = 0;
                         do
@@ -151,7 +151,7 @@
                 step2 += j;
                 }
 
-                if(offset > 0)
+                else if(offset > 0)
                 {
                 size_t j = 0;
                     do
@@ -291,7 +291,7 @@
                     step2 += j;
                     }
 
-                    if(offset < 0)
+                    else if(offset < 0)
                     {
                     size_t j = 0;
                         do
@@ -339,7 +339,7 @@
                 step2 += j;
                 }
 
-                if(offset > 0)
+                else if(offset > 0)
                 {
                 size_t j = 0;
                     do
