@@ -50,7 +50,7 @@
         }
 
         //*add specified shift vector
-        if(additive == true)
+        else if(additive == true)
         {
             for(size_t i = 0; i < matrix[0].size(); i++)
             {
