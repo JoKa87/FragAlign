@@ -24,11 +24,17 @@
 
     vector<vector<float> >& Utils::divide(vector<vector<float> >& matrix1, const float& divisor)
     {
-        for(size_t i = 0; i < matrix1.size(); i++)
+        if(divisor != 0)
         {
-            for(size_t j = 0; j < matrix1[0].size(); j++)
-            {matrix1[i][j] /= divisor;}
+            for(size_t i = 0; i < matrix1.size(); i++)
+            {
+                for(size_t j = 0; j < matrix1[0].size(); j++)
+                {matrix1[i][j] /= divisor;}
+            }
         }
+        
+        else
+        {cout << "< warning. zero division not possible!" << endl;}
 
     return matrix1;
     }
@@ -131,9 +137,6 @@
                 sorted_indices[sorted_indices.size()-2-j] = index1;}
             }
         }
-
-        //for(size_t i = 0; i < sorted_indices.size(); i++)
-        //{cout << sorted_indices[i] << " " << values[i] << endl;}
-
+        
     return sorted_indices;
     }
