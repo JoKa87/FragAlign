@@ -37,8 +37,7 @@
     vector<int> converted_sequence;
 
         for(size_t i = 0; i < sequence.size(); i++)
-        {//cout << "i " << i << " " << resn_index_converter(sequence[i]) << " " << sequence[i] << endl;
-        converted_sequence.push_back(resn_index_converter(sequence[i], params.verbosity));}
+        {converted_sequence.push_back(resn_index_converter(sequence[i], params.verbosity));}
 
     return converted_sequence;
     }
