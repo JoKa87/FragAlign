@@ -62,7 +62,7 @@ using namespace std;
             if(dirstr.compare("1") == 0)
             {dir = default_dir;}
 
-            if(dirstr.compare("1") != 0)
+            else
             {dir = dirstr;}
 
         struct dirent *d;
@@ -107,13 +107,12 @@ using namespace std;
                 ifstream testfile;
                 testfile.open(filestr.c_str());
 
-                    if(!testfile.is_open())
-                    {cout << "< error occurred during reading of file. try again or type '0' to exit." << endl;}
-
                     if(testfile.is_open())
                     {paths.push_back(dir+"\\"+filestr);}
+                    
+                    else
+                    {cout << "< error occurred during reading of file. try again or type '0' to exit." << endl;}
                 }
-
             } while(filestr.compare("0") != 0);
         }
 
