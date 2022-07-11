@@ -25,7 +25,7 @@
     //*apply transformation history to whole target coordinates
     vector<float> shift_vector {best_param_history[1][1], best_param_history[1][2], best_param_history[1][3]};
     if(target == true) output.matrix = shift.out(output.matrix, best_param_history, shift_vector, true, false);
-    if(target == false) output.matrix = transform_by_history.out(output.matrix, best_param_history);
+    else if(target == false) output.matrix = transform_by_history.out(output.matrix, best_param_history);
 
         //*full matrix includes all coordinates (not only target coordinates)
         //*used for final output
