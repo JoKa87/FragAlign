@@ -62,19 +62,6 @@
 
                 testscore = (float) score / params.fractionsize;
 
-                    //*register assigned fractions candidates based on scoring threshold
-                    if(params.fraction_by_threshold == true
-                       && oldtestscore >= params.score_threshold && testscore < oldtestscore
-                       && (fractions1.size() == 0
-                       || (fractions1.size() > 0 && i-fractions1[fractions1.size()-1] >= params.fraction_step)))
-                    {
-                    fractions1.push_back(i);
-                    fractions2.push_back(j-1);
-
-                        if(fractions1.size() == params.fractions)
-                        {stopcheck = true;}
-                    }
-
                     //*register assigned fractions candidates based on maximum scores (preferred option)
                     if(params.fraction_by_threshold == false)
                     {
@@ -108,6 +95,19 @@
                         {scores.push_back(testscore);
                         fractions1.push_back(i);
                         fractions2.push_back(j);}
+                    }
+                    
+                    //*register assigned fractions candidates based on scoring threshold
+                    else if(params.fraction_by_threshold == true
+                       && oldtestscore >= params.score_threshold && testscore < oldtestscore
+                       && (fractions1.size() == 0
+                       || (fractions1.size() > 0 && i-fractions1[fractions1.size()-1] >= params.fraction_step)))
+                    {
+                    fractions1.push_back(i);
+                    fractions2.push_back(j-1);
+
+                        if(fractions1.size() == params.fractions)
+                        {stopcheck = true;}
                     }
 
                 oldtestscore = testscore;
