@@ -60,12 +60,6 @@ using namespace std;
             float y3 = best_rotated_matrix2[paired_indices[i]][2];
             vector<vector<float> > y_ext {{y1, y2, y3}};
 
-                if(mode < 0)
-                {avg_coords[0] += y1-x1;
-                avg_coords[1] += y2-x2;
-                avg_coords[2] += y3-x3;
-                coords_sum++;}
-
                 if(mode == 0
                     && sqrt((pow(x1,2) + pow(x2,2) + pow(x3,2)))*sqrt((pow(y1,2) + pow(y2,2) + pow(y3,2))) != 0
                     && (x1*y1+x2*y2+x3*y3) / (sqrt((pow(x1,2) + pow(x2,2) + pow(x3,2)))*sqrt((pow(y1,2) + pow(y2,2) + pow(y3,2)))) <= 1
@@ -96,7 +90,7 @@ using namespace std;
                     {rotated_matrix2 = multiply.out(best_rotated_matrix2, rotation_matrix_ccw);
                     best_angle = deg_(angle);}
 
-                    if(dist_ccw > dist_clw)
+                    else if(dist_ccw > dist_clw)
                     {rotated_matrix2 = multiply.out(best_rotated_matrix2, rotation_matrix_clw);
                     best_angle = -deg_(angle);}
                 }
