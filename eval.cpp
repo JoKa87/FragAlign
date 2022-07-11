@@ -41,7 +41,7 @@
             if(run_results[i].best_rmsd != -1)
             {best_rmsds.push_back(run_results[i].best_rmsd);}
 
-            if(run_results[i].best_rmsd == -1)
+            else
             {best_rmsds.push_back(0);}
         }
 
@@ -53,7 +53,7 @@
             if(run_results[i].best_coverage != -1)
             {best_coverages.push_back(run_results[i].best_coverage);}
 
-            if(run_results[i].best_coverage == -1)
+            else
             {best_coverages.push_back(0);}
         }
 
