@@ -3,17 +3,9 @@
 #include <vector>
 
 #include "params.h"
+#include "run.h"
 
 using namespace std;
-
-struct Run_result
-{
-int duration;
-float best_coverage;
-float best_rmsd;
-string path1;
-string path2;
-};
 
 class Print_stats
 {

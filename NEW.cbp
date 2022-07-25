@@ -86,6 +86,8 @@
 		<Unit filename="rotate_by_box.h" />
 		<Unit filename="rotate_by_pairs.cpp" />
 		<Unit filename="rotate_by_pairs.h" />
+		<Unit filename="run.cpp" />
+		<Unit filename="run.h" />
 		<Unit filename="shift.cpp" />
 		<Unit filename="shift.h" />
 		<Unit filename="substitution.cpp" />

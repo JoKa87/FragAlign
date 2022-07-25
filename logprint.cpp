@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
@@ -13,42 +14,24 @@
 
 using namespace std;
 
-    void Logprint::out(const vector<float>& lognumbers, const string& logstr, const Params& params, const bool& init)
+    void Logprint::out(const string& logstr, vector<float>* lognumbers)
     {
         if(init == true)
         {
-        ofstream logfile;
-        logfile.open((params.run_dir + "\\" + "log.txt").c_str());
-        logfile << "> new log is initialized." << endl;
-        logfile.close();
+        (*logfile).open((params->run_dir + "\\" + "log.txt").c_str());
+        *logfile << "> new log is initialized." << endl;
         }
 
         if(init == false)
         {
-        ifstream in_logfile;
-        in_logfile.open((params.run_dir + "\\" + "log.txt").c_str());
-        vector<string> lines;
-        string line;
+            if(lognumbers != nullptr)
+            {
+                for(size_t i = 0; i < (*lognumbers).size(); i++)
+                {(*logfile) << (*lognumbers)[i] << " ";}
 
-            while(getline(in_logfile, line))
-            {lines.push_back(line);}
+            *logfile << endl;
+            }
 
-        in_logfile.close();
-
-        ofstream out_logfile;
-        out_logfile.open((params.run_dir + "\\" + "log.txt").c_str());
-
-            for(size_t i = 0; i < lines.size(); i++)
-            {out_logfile << lines[i] << endl;}
-
-            for(size_t i = 0; i < lognumbers.size(); i++)
-            {out_logfile << lognumbers[i] << " ";}
-
-        out_logfile << endl;
-        out_logfile << logstr << endl;
-        out_logfile.close();
+        *logfile << logstr << endl;
         }
-
-    return;
     }
-

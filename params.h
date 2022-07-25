@@ -22,6 +22,7 @@ int verbosity = 1;
 bool log = false;
 bool multithreading = false;
 bool print_pdb = false;
+size_t threads = 6;
 
 ////*settings for PDB input and alignment calculation
 //*target coordinates marked by atom identifier

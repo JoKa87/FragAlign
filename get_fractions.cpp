@@ -21,7 +21,7 @@
                                           const size_t& it)
     {
     //*definitions for sub-programs
-    Get_deviation get_deviation; Logprint logprint; Utils utils;
+    Get_deviation get_deviation; Utils utils;
 
     Deviation deviation;
 
@@ -96,7 +96,7 @@
                         fractions1.push_back(i);
                         fractions2.push_back(j);}
                     }
-                    
+
                     //*register assigned fractions candidates based on scoring threshold
                     else if(params.fraction_by_threshold == true
                        && oldtestscore >= params.score_threshold && testscore < oldtestscore

@@ -28,7 +28,6 @@
     Multiply multiply; Rotate_by_angles rotate_by_angles;
     Rotate_by_axis rotate_by_axis; Rotate_by_box rotate_by_box;
     Rotate_by_pairs rotate_by_pairs; Shift shift;
-
     Data dummy1, dummy2; Stats stats;
 
     vector<vector<vector<vector<float> > > > align_boxes;
@@ -42,6 +41,7 @@
         {
         //*conduct initial translational shifts
         deviation.matrix1 = shift.out(deviation.matrix1, param_history1, {0, 0, 0}, false, true);
+
         deviation.best_matrix2 = shift.out(deviation.best_matrix2, param_history2, {0, 0, 0}, false, true);
         //*determine boxes for box-wise transformations
         //*box geometry is adapted to match matrix dimensions
@@ -54,6 +54,7 @@
         size_t total_stopcount = 0;
         size_t box_it = 0;
         size_t i = 0;
+
             do
             {
             //*parameter history allows later transformation of whole structures

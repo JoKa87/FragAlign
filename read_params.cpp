@@ -17,7 +17,7 @@
 using namespace std;
 
     //*code snippet from "https://gist.github.com/karolisjan/f9b8ac3ae2d41ec0ce70f2feac6bdfaf"
-    string get_current_directory()
+    static string get_current_directory()
     {
 	char buffer[MAX_PATH];
 	GetModuleFileNameA(NULL, buffer, MAX_PATH);
@@ -25,9 +25,9 @@ using namespace std;
 
 	return string(buffer).substr(0, pos);
     }
-    //*
 
-    bool str_to_bool(const string& teststr)
+
+    static bool str_to_bool(const string& teststr)
     {
     bool result;
 
@@ -44,7 +44,8 @@ using namespace std;
     return result;
     }
 
-    vector<string> str_to_list(const string& teststr)
+
+    static vector<string> str_to_list(const string& teststr)
     {
     vector<string> converted_list;
     string part_teststr;
@@ -65,6 +66,7 @@ using namespace std;
     return converted_list;
     }
 
+
     Params Read_params::out()
     {
     vector<string> params_dict {"verbosity", "log", "multithreading", "print_pdb", "fraction_by_threshold", "rmsd_threshold",
@@ -72,7 +74,7 @@ using namespace std;
                                 "fraction_step", "boxwise_align_it", "boxwise_align_steps", "max_depth_stopcount",
                                 "max_total_stopcount", "rmsd_counts", "seqwise_align_it", "seqwise_align_steps",
                                 "matrix", "method1", "method2", "data_dir", "run_dir", "filter", "rmsd_mode",
-                                "final_rmsd_mode", "comb_steps", "target_coords", "rmsd_cutoff"};
+                                "final_rmsd_mode", "comb_steps", "target_coords", "rmsd_cutoff", "threads"};
 
     Params default_params; Params current_params;
     Get_path get_path;
@@ -203,6 +205,9 @@ using namespace std;
 
                         if(i == 29)
                         {current_params.rmsd_cutoff = atof(teststr.c_str());}
+
+                        if(i == 30)
+                        {current_params.threads = atoi(teststr.c_str());}
                     }
                 }
             }

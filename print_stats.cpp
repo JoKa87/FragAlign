@@ -19,7 +19,7 @@
                                 "fraction_step", "boxwise_align_it", "boxwise_align_steps", "max_depth_stopcount",
                                 "max_total_stopcount", "rmsd_counts", "seqwise_align_it", "seqwise_align_steps",
                                 "matrix", "method1", "method2", "data_dir", "run_dir", "filter", "rmsd_mode",
-                                "final_rmsd_mode", "comb_steps", "target_coords", "rmsd_cutoff"};
+                                "final_rmsd_mode", "comb_steps", "target_coords", "rmsd_cutoff", "threads"};
 
     ofstream outfile;
     string outfilepath = updated_params.run_dir+"\\alignment_stats.txt";
@@ -156,7 +156,10 @@
             }
 
             if(i == 29)
-            { outfile << params_dict[i] << " = " << updated_params.rmsd_cutoff;}
+            { outfile << params_dict[i] << " = " << updated_params.rmsd_cutoff << endl;}
+
+            if(i == 30)
+            {outfile << params_dict[i] << " = " << updated_params.threads;}
         }
 
     outfile.close();

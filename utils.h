@@ -17,7 +17,15 @@ void get_performance(const long long int& time1, const long long int& time2,
                      const int& verbosity = 0, const string& message = "");
 vector<size_t> get_sorted_indices(const Params& params, vector<float> values);
 float get_var(const vector<float>& values, const float& avg);
+template<class T> string to_string(const T& input);
 vector<vector<float> > transpose(const vector<vector<float> >& matrix);
 };
+
+template<class T> string Utils::to_string(const T& input)
+{
+stringstream inputstream;
+inputstream << input;
+return inputstream.str();
+}
 
 #endif

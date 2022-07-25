@@ -17,7 +17,7 @@
 
     Data Load::out(const Params& params, const string& path, const size_t& index)
     {
-    Logprint logprint; Pdbread pdbread; Repdetect repdetect; Repremove repremove;
+    Pdbread pdbread; Repdetect repdetect; Repremove repremove;
     Data input;
 
     //*read PDB file, warning mode is a switch for messages on
