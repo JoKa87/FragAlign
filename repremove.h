@@ -1,7 +1,7 @@
 #ifndef REPREMOVE_H
 #define REPREMOVE_H
-#include <string>
-#include <vector>
+#include <algorithm>
+
 #include "params.h"
 #include "pdbstruct.h"
 #include "repdetect.h"

@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "convert_sequence.h"
+
 
     int resn_index_converter(const string& resn, const int& verbosity)
     {
@@ -17,20 +7,21 @@
     vector<string> threelettercode {"ALA", "CYS", "ASP", "GLU", "PHE", "GLY", "HIS", "ILE",
                                     "LYS", "LEU", "MET", "ASN", "PRO", "GLN", "ARG", "SER",
                                     "THR", "VAL", "TRP", "TYR", "UNK"};
-    size_t matchcheck = 0;
+    bool match = false;
 
-        for(size_t i = 0; i < threelettercode.size() && matchcheck == 0; i++)
+        for(size_t i = 0; i < threelettercode.size() && match == false; i++)
         {
             if(threelettercode[i].compare(resn) == 0)
             {aa_index = i;
-            matchcheck = 1;}
+            match = true;}
         }
 
-        if(matchcheck == 0 && verbosity == 1)
+        if(match == false && verbosity == 1)
         {cout << "< warning. unknown amino acid residue found with name " << resn << endl;}
 
     return aa_index;
     }
+
 
     vector<int> Convert_sequence::out(const Params& params, const vector<string>& sequence)
     {

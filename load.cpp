@@ -1,19 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "load.h"
-#include "logprint.h"
-#include "pdbread.h"
-#include "repdetect.h"
-#include "repremove.h"
+
 
     Data Load::out(const Params& params, const string& path, const size_t& index)
     {

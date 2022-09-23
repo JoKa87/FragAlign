@@ -1,7 +1,6 @@
 #ifndef LOGPRINT_H
 #define LOGPRINT_H
 #include <fstream>
-#include <string>
 
 #include "params.h"
 

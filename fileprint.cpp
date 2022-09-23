@@ -1,18 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "fileprint.h"
-#include "utils.h"
-
-using namespace std;
 
 
     static string get_spaces(const string& input, const size_t& max_spaces)

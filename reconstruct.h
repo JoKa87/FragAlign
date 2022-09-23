@@ -1,11 +1,13 @@
 #ifndef RECONSTRUCT_H
 #define RECONSTRUCT_H
-#include <string>
-#include <vector>
 
 #include "get_deviation.h"
 #include "load.h"
 #include "params.h"
+#include "reconstruct.h"
+#include "shift.h"
+#include "transform_by_history.h"
+#include "utils.h"
 
 using namespace std;
 

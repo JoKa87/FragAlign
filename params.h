@@ -1,5 +1,6 @@
 #ifndef PARAMS_H
 #define PARAMS_H
+#include <string>
 #include <vector>
 
 using namespace std;

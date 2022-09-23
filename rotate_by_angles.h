@@ -1,5 +1,6 @@
 #ifndef ROTATE_BY_ANGLES_H
 #define ROTATE_BY_ANGLES_H
+#include <algorithm>
 #include <vector>
 
 using namespace std;

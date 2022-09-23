@@ -1243,3 +1243,274 @@
 	"substitution.h"
 	"utils.h"
 
+1663938847 source:d:\download\fragxalign-main(1)\fragxalign-main\convert_sequence.cpp
+	"convert_sequence.h"
+
+1663938864 d:\download\fragxalign-main(1)\fragxalign-main\convert_sequence.h
+	<iostream>
+	"params.h"
+
+1663938488 d:\download\fragxalign-main(1)\fragxalign-main\params.h
+	<string>
+	<vector>
+
+1663938899 source:d:\download\fragxalign-main(1)\fragxalign-main\cross_product.cpp
+	"cross_product.h"
+
+1663936219 d:\download\fragxalign-main(1)\fragxalign-main\cross_product.h
+	<vector>
+
+1663938933 source:d:\download\fragxalign-main(1)\fragxalign-main\eval.cpp
+	"eval.h"
+
+1663938987 d:\download\fragxalign-main(1)\fragxalign-main\eval.h
+	<iostream>
+	<sstream>
+	"params.h"
+	"print_stats.h"
+	"utils.h"
+
+1663939674 d:\download\fragxalign-main(1)\fragxalign-main\print_stats.h
+	<fstream>
+	<iomanip>
+	"params.h"
+	"run.h"
+
+1663941128 d:\download\fragxalign-main(1)\fragxalign-main\run.h
+	<future>
+	<thread>
+	<utility>
+	"convert_sequence.h"
+	"fileprint.h"
+	"get_fractions.h"
+	"get_stats.h"
+	"load.h"
+	"logprint.h"
+	"params.h"
+	"reconstruct.h"
+	"substitution.h"
+	"utils.h"
+
+1663941306 d:\download\fragxalign-main(1)\fragxalign-main\utils.h
+	<algorithm>
+	<bits/stdc++.h>
+	<ctime>
+	<iostream>
+	<sstream>
+	"params.h"
+
+1663939024 source:d:\download\fragxalign-main(1)\fragxalign-main\fileprint.cpp
+	"fileprint.h"
+
+1663939061 d:\download\fragxalign-main(1)\fragxalign-main\fileprint.h
+	<fstream>
+	"params.h"
+	"pdbstruct.h"
+	"utils.h"
+
+1663936219 d:\download\fragxalign-main(1)\fragxalign-main\pdbstruct.h
+	<string>
+	<vector>
+
+1663939100 source:d:\download\fragxalign-main(1)\fragxalign-main\get_align_boxes.cpp
+	"get_align_boxes.h"
+
+1663939108 d:\download\fragxalign-main(1)\fragxalign-main\get_align_boxes.h
+	<algorithm>
+
+1663939206 source:d:\download\fragxalign-main(1)\fragxalign-main\get_deviation.cpp
+	"get_deviation.h"
+
+1663939220 d:\download\fragxalign-main(1)\fragxalign-main\get_deviation.h
+	<iostream>
+	"get_align_boxes.h"
+	"get_deviation.h"
+	"get_stats.h"
+	"load.h"
+	"multiply.h"
+	"params.h"
+	"rotate_by_angles.h"
+	"rotate_by_axis.h"
+	"rotate_by_box.h"
+	"rotate_by_pairs.h"
+	"shift.h"
+
+1663939389 d:\download\fragxalign-main(1)\fragxalign-main\get_stats.h
+	<vector>
+	"load.h"
+	"params.h"
+	"utils.h"
+
+1663939453 d:\download\fragxalign-main(1)\fragxalign-main\load.h
+	"logprint.h"
+	"params.h"
+	"pdbstruct.h"
+	"pdbread.h"
+	"repdetect.h"
+	"repremove.h"
+
+1663936219 d:\download\fragxalign-main(1)\fragxalign-main\multiply.h
+	<vector>
+
+1663940037 d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_angles.h
+	<algorithm>
+	<vector>
+
+1663940803 d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_axis.h
+	<algorithm>
+	<iostream>
+	<vector>
+
+1663940863 d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_box.h
+	"cross_product.h"
+	"multiply.h"
+	"rotate_by_angles.h"
+	"rotate_by_axis.h"
+	"shift.h"
+
+1663940941 d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_pairs.h
+	"cross_product.h"
+	"get_stats.h"
+	"multiply.h"
+	"load.h"
+	"rotate_by_axis.h"
+	"shift.h"
+
+1663936219 d:\download\fragxalign-main(1)\fragxalign-main\shift.h
+	<vector>
+
+1663939281 source:d:\download\fragxalign-main(1)\fragxalign-main\get_fractions.cpp
+	"get_fractions.h"
+
+1663939271 d:\download\fragxalign-main(1)\fragxalign-main\get_fractions.h
+	<vector>
+	"get_deviation.h"
+	"get_fractions.h"
+	"load.h"
+	"logprint.h"
+	"params.h"
+	"utils.h"
+
+1663939493 d:\download\fragxalign-main(1)\fragxalign-main\logprint.h
+	<fstream>
+	"params.h"
+
+1663939320 source:d:\download\fragxalign-main(1)\fragxalign-main\get_path.cpp
+	"get_path.h"
+
+1663939354 d:\download\fragxalign-main(1)\fragxalign-main\get_path.h
+	<algorithm>
+	<dirent.h>
+	<fstream>
+	<iostream>
+	"params.h"
+
+1663939397 source:d:\download\fragxalign-main(1)\fragxalign-main\get_stats.cpp
+	"get_stats.h"
+
+1663939461 source:d:\download\fragxalign-main(1)\fragxalign-main\load.cpp
+	"load.h"
+
+1663939605 d:\download\fragxalign-main(1)\fragxalign-main\pdbread.h
+	<fstream>
+	<iostream>
+	"params.h"
+	"pdbstruct.h"
+
+1663939910 d:\download\fragxalign-main(1)\fragxalign-main\repdetect.h
+	<iostream>
+	"params.h"
+	"pdbstruct.h"
+
+1663939989 d:\download\fragxalign-main(1)\fragxalign-main\repremove.h
+	<algorithm>
+	"params.h"
+	"pdbstruct.h"
+	"repdetect.h"
+
+1663939498 source:d:\download\fragxalign-main(1)\fragxalign-main\logprint.cpp
+	"logprint.h"
+
+1663939547 source:d:\download\fragxalign-main(1)\fragxalign-main\multiply.cpp
+	"multiply.h"
+
+1663939597 source:d:\download\fragxalign-main(1)\fragxalign-main\pdbread.cpp
+	"pdbread.h"
+
+1663939652 source:d:\download\fragxalign-main(1)\fragxalign-main\print_stats.cpp
+	"print_stats.h"
+
+1663939777 source:d:\download\fragxalign-main(1)\fragxalign-main\read_params.cpp
+	"read_params.h"
+
+1663939798 d:\download\fragxalign-main(1)\fragxalign-main\read_params.h
+	<dirent.h>
+	<windows.h>
+	"get_align_boxes.h"
+	"get_path.h"
+	"params.h"
+
+1663939860 source:d:\download\fragxalign-main(1)\fragxalign-main\reconstruct.cpp
+	"reconstruct.h"
+
+1663939850 d:\download\fragxalign-main(1)\fragxalign-main\reconstruct.h
+	"get_deviation.h"
+	"load.h"
+	"params.h"
+	"reconstruct.h"
+	"shift.h"
+	"transform_by_history.h"
+	"utils.h"
+
+1663941332 d:\download\fragxalign-main(1)\fragxalign-main\transform_by_history.h
+	"multiply.h"
+	"rotate_by_axis.h"
+	"shift.h"
+
+1663939896 source:d:\download\fragxalign-main(1)\fragxalign-main\repdetect.cpp
+	"repdetect.h"
+
+1663939958 source:d:\download\fragxalign-main(1)\fragxalign-main\repremove.cpp
+	"repremove.h"
+
+1663940034 source:d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_angles.cpp
+	"rotate_by_angles.h"
+
+1663940780 source:d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_axis.cpp
+	"rotate_by_axis.h"
+
+1663940897 source:d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_box.cpp
+	"rotate_by_box.h"
+
+1663940946 source:d:\download\fragxalign-main(1)\fragxalign-main\rotate_by_pairs.cpp
+	"rotate_by_pairs.h"
+
+1663941081 source:d:\download\fragxalign-main(1)\fragxalign-main\run.cpp
+	"run.h"
+
+1663938706 d:\download\fragxalign-main(1)\fragxalign-main\substitution.h
+	<fstream>
+	<iostream>
+	"params.h"
+
+1663941214 source:d:\download\fragxalign-main(1)\fragxalign-main\shift.cpp
+	"shift.h"
+
+1663938742 source:d:\download\fragxalign-main(1)\fragxalign-main\substitution.cpp
+	"substitution.h"
+
+1663941346 source:d:\download\fragxalign-main(1)\fragxalign-main\transform_by_history.cpp
+	"transform_by_history.h"
+
+1663941251 source:d:\download\fragxalign-main(1)\fragxalign-main\utils.cpp
+	"utils.h"
+
+1663938537 source:d:\download\fragxalign-main(1)\fragxalign-main\main.cpp
+	<fstream>
+	<iostream>
+	"eval.h"
+	"get_path.h"
+	"logprint.h"
+	"read_params.h"
+	"run.h"
+

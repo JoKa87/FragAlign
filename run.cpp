@@ -1,27 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "convert_sequence.h"
-#include "fileprint.h"
-#include "get_fractions.h"
-#include "get_stats.h"
-#include "load.h"
-#include "logprint.h"
-#include "params.h"
-#include "reconstruct.h"
 #include "run.h"
-#include "substitution.h"
-#include "utils.h"
 
-using namespace std;
 
     static Run_result run(Params* params, ofstream* logfile, const string& path1, const string& path2)
     {
@@ -139,7 +117,7 @@ using namespace std;
         output2.pdbstruct.xvec = best_full_matrix2[0];
         output2.pdbstruct.yvec = best_full_matrix2[1];
         output2.pdbstruct.zvec = best_full_matrix2[2];
-        fileprint.out(output1.pdbstruct, output2.pdbstruct, current_params, 0, 1, true);}
+        fileprint.out(output1.pdbstruct, output2.pdbstruct, current_params, 0, 1, false);}
 
     if(mincheck == true)
     {params->rmsd_mode = "BY_MINIMUM";}

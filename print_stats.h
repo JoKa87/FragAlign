@@ -1,6 +1,7 @@
 #ifndef PRINT_STATS_H
 #define PRINT_STATS_H
-#include <vector>
+#include <fstream>
+#include <iomanip>
 
 #include "params.h"
 #include "run.h"

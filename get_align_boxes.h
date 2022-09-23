@@ -1,6 +1,6 @@
 #ifndef GET_ALIGN_BOXES_H
 #define GET_ALIGN_BOXES_H
-#include <vector>
+#include <algorithm>
 
 using namespace std;
 

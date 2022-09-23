@@ -1,14 +1,5 @@
-#include <iostream>
 #include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-#include <thread>
+#include <iostream>
 
 #include "eval.h"
 #include "get_path.h"
@@ -17,6 +8,7 @@
 #include "run.h"
 
 using namespace std;
+
 
     int main()
     {
@@ -42,5 +34,13 @@ using namespace std;
 
     //*evaluate results and print (if "true" is chosen)
     eval.out(updated_params, run_results, true);
+
+    int exitmode;
+    cout << endl;
+    cout << "> type '0' to exit program." << endl;
+    cout << "< ";
+        do
+        {cin >> exitmode;} while(exitmode != 0);
+
     return 0;
     }

@@ -1,29 +1,13 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "cross_product.h"
-#include "multiply.h"
-#include "rotate_by_angles.h"
-#include "rotate_by_axis.h"
 #include "rotate_by_box.h"
-#include "shift.h"
 
-using namespace std;
 
-    float deg(float rad)
+    static float deg(float rad)
     {rad = (rad/3.1415926) * 180;
     return rad;}
 
-    vector<float> sort_coordinates (const vector<vector<vector<float> > >& align_boxes,
-                                    const vector<vector<float> >& matrix, const size_t& it)
+
+    static vector<float> sort_coordinates (const vector<vector<vector<float> > >& align_boxes,
+                                           const vector<vector<float> >& matrix, const size_t& it)
     {
     vector<float> box_coords;
     float coord1 = 0;
@@ -54,6 +38,7 @@ using namespace std;
 
     return box_coords;
     }
+
 
     vector<vector<float> > Rotate_by_box::out(vector<vector<float> >& matrix1, vector<vector<float> >& matrix2,
                                               vector<vector<float> >& param_history,

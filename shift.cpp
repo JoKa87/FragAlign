@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "shift.h"
+
 
     vector<vector<float> >& Shift::out(vector<vector<float> >& matrix,
                                        vector<vector<float> >& param_history,

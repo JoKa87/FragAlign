@@ -1,6 +1,10 @@
 #ifndef GET_PATH_H
 #define GET_PATH_H
-#include <vector>
+
+#include <algorithm>
+#include <dirent.h>
+#include <fstream>
+#include <iostream>
 #include "params.h"
 
 using namespace std;

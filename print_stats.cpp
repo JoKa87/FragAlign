@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "print_stats.h"
+
 
     void Print_stats::out(const Params& updated_params, const vector<Run_result>& run_results,
                           const vector<vector<float> >& stats)

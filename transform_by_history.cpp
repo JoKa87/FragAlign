@@ -1,24 +1,10 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "multiply.h"
-#include "rotate_by_axis.h"
-#include "shift.h"
 #include "transform_by_history.h"
 
-using namespace std;
 
-    float _deg_(float rad)
+    static float _deg_(float rad)
     {rad = (rad/3.1415926) * 180;
     return rad;}
+
 
     vector<vector<float> >& Transform_by_history::out(vector<vector<float> >& matrix,
                                                       vector<vector<float> >& param_history)

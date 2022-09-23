@@ -2,8 +2,12 @@
 #define GET_FRACTIONS_H
 #include <vector>
 
+#include "get_deviation.h"
+#include "get_fractions.h"
 #include "load.h"
+#include "logprint.h"
 #include "params.h"
+#include "utils.h"
 
 struct Best_value
 {

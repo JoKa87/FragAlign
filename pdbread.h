@@ -1,7 +1,8 @@
 #ifndef PDBREAD_H
 #define PDBREAD_H
-#include <string>
-#include <vector>
+#include <fstream>
+#include <iostream>
+
 #include "params.h"
 #include "pdbstruct.h"
 

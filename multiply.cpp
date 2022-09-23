@@ -1,13 +1,5 @@
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "multiply.h"
+
 
     vector<vector<float> > Multiply::out(const vector<vector<float> >& matrix,
                                           const vector<vector<float> >& rotation_mat)

@@ -1,17 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "get_align_boxes.h"
 
-using namespace std;
 
     vector<vector<vector<float> > > get_half_by_y(const vector<vector<vector<float> > >& full_box, const float& maxdist)
     {

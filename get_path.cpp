@@ -1,18 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-#include <dirent.h>
-
 #include "get_path.h"
 
-using namespace std;
 
     size_t pdb_to_idx(const string& teststr)
     {
@@ -109,7 +96,7 @@ using namespace std;
 
                     if(testfile.is_open())
                     {paths.push_back(dir+"\\"+filestr);}
-                    
+
                     else
                     {cout << "< error occurred during reading of file. try again or type '0' to exit." << endl;}
                 }

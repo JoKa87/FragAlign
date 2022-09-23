@@ -1,6 +1,12 @@
 #ifndef ROTATE_BY_PAIRS_H
 #define ROTATE_BY_PAIRS_H
-#include <vector>
+
+#include "cross_product.h"
+#include "get_stats.h"
+#include "multiply.h"
+#include "load.h"
+#include "rotate_by_axis.h"
+#include "shift.h"
 
 using namespace std;
 

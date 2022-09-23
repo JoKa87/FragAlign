@@ -1,24 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "get_align_boxes.h"
 #include "get_deviation.h"
-#include "get_stats.h"
-#include "load.h"
-#include "multiply.h"
-#include "rotate_by_angles.h"
-#include "rotate_by_axis.h"
-#include "rotate_by_box.h"
-#include "rotate_by_pairs.h"
-#include "shift.h"
+
 
     Deviation& Get_deviation::out(Deviation& deviation, const Params& params,
                                   const size_t& fraction1, const size_t& fraction2, const size_t& index)

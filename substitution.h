@@ -1,6 +1,8 @@
 #ifndef SUBSTITUTION_H
 #define SUBSTITUTION_H
-#include <vector>
+#include <fstream>
+#include <iostream>
+
 #include "params.h"
 
 using namespace std;

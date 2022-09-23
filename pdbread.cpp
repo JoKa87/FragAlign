@@ -1,16 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
 #include "pdbread.h"
 
-using namespace std;
 
     string str_remove(string str, string removeletters)
     {

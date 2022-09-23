@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "rotate_by_angles.h"
+
 
     vector<vector<float> > Rotate_by_angles::out(vector<float>& angles)
     {

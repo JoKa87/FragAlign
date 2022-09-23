@@ -1,18 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "get_deviation.h"
 #include "get_fractions.h"
-#include "logprint.h"
-#include "utils.h"
+
 
     vector<Best_value> Get_fractions::out(const vector<Best_value> best_values,
                                           const Params& params, const Data& input1, const Data& input2,

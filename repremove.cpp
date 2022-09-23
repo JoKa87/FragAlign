@@ -1,17 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "repremove.h"
 
-using namespace std;
 
     //*remove local repetitions in PDB structure
     Pdbstruct& Repremove::out(Pdbstruct& pdbstruct, const Repstruct& repstruct, const Params& params)

@@ -1,14 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "cross_product.h"
 
     vector<float> Cross_product::out(const vector<float>& vector1, const vector<float>& vector2)

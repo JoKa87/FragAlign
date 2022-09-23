@@ -1,7 +1,7 @@
 #ifndef REPDETECT_H
 #define REPDETECT_H
-#include <string>
-#include <vector>
+#include <iostream>
+
 #include "params.h"
 #include "pdbstruct.h"
 

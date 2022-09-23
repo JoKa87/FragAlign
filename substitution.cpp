@@ -1,17 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "substitution.h"
 
-using namespace std;
 
     //*read substitution matrices and normalize (values between 0 and 1)
     vector<vector<float> > Substitution::out(const Params& params)
@@ -87,6 +75,7 @@ using namespace std;
 
             if(!file.is_open())
             {cout << "< error occurred during reading of substitution matrices." << endl;
+            cout << "< check filepath: " << filepath << endl;
             cout << endl;}
 
             //*normalize substitution matrix

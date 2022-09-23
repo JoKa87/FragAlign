@@ -1,6 +1,6 @@
 #ifndef CONVERT_SEQUENCE_H
 #define CONVERT_SEQUENCE_H
-#include <vector>
+#include <iostream>
 
 #include "params.h"
 

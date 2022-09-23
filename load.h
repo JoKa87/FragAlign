@@ -1,10 +1,12 @@
 #ifndef LOAD_H
 #define LOAD_H
-#include <vector>
 
-#include "load.h"
+#include "logprint.h"
 #include "params.h"
 #include "pdbstruct.h"
+#include "pdbread.h"
+#include "repdetect.h"
+#include "repremove.h"
 
 using namespace std;
 

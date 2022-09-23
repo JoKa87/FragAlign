@@ -1,27 +1,10 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "cross_product.h"
-#include "get_stats.h"
-#include "multiply.h"
-#include "load.h"
-#include "rotate_by_axis.h"
 #include "rotate_by_pairs.h"
-#include "shift.h"
 
-using namespace std;
 
-    float deg_(float rad)
+    static float deg_(float rad)
     {rad = (rad/3.1415926) * 180;
     return rad;}
+
 
     vector<vector<float> > Rotate_by_pairs::out(vector<vector<float> >& matrix1, vector<vector<float> >& matrix2,
                                                 vector<vector<float> >& param_history, const Params& params, const size_t& it)

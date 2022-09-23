@@ -1,6 +1,11 @@
 #ifndef ROTATE_BY_BOX_H
 #define ROTATE_BY_BOX_H
-#include <vector>
+
+#include "cross_product.h"
+#include "multiply.h"
+#include "rotate_by_angles.h"
+#include "rotate_by_axis.h"
+#include "shift.h"
 
 using namespace std;
 

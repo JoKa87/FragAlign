@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "rotate_by_axis.h"
+
 
     vector<vector<float> >& Rotate_by_axis::out(vector<vector<float> >& rotation_mat, const vector<float>& axis, float angle, const bool& verbosity)
     {

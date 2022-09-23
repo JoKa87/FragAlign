@@ -1,16 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "get_stats.h"
-#include "utils.h"
+
 
     void get_localmin(vector<vector<float> >& mindists,
                       vector<vector<int> >& minorders,

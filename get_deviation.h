@@ -1,9 +1,18 @@
 #ifndef GET_DEVIATION_H
 #define GET_DEVIATION_H
-#include <string>
-#include <vector>
+#include <iostream>
 
+#include "get_align_boxes.h"
+#include "get_deviation.h"
+#include "get_stats.h"
+#include "load.h"
+#include "multiply.h"
 #include "params.h"
+#include "rotate_by_angles.h"
+#include "rotate_by_axis.h"
+#include "rotate_by_box.h"
+#include "rotate_by_pairs.h"
+#include "shift.h"
 
 using namespace std;
 

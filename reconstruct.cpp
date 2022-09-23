@@ -1,19 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
-#include "load.h"
 #include "reconstruct.h"
-#include "shift.h"
-#include "transform_by_history.h"
-#include "utils.h"
+
 
     Data Reconstruct::out(const Data& input, const Params& params, vector<vector<float> >& best_param_history,
                           size_t best_start_poscount, size_t best_end_poscount,

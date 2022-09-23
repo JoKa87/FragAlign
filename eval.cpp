@@ -1,16 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "eval.h"
-#include "utils.h"
+
 
     //*calculate average and variance
     vector<float> get_stats(const vector<float>& values)
@@ -26,6 +15,7 @@
 
     return stats;
     }
+
 
     //*evaluate alignment results
     void Eval::out(const Params& updated_params, const vector<Run_result>& run_results, const bool& print)

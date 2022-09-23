@@ -1,15 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-
 #include "utils.h"
+
 
     vector<vector<float> >& Utils::add(vector<vector<float> >& matrix1, const vector<vector<float> >& matrix2)
     {
@@ -32,7 +22,7 @@
                 {matrix1[i][j] /= divisor;}
             }
         }
-        
+
         else
         {cout << "< warning. zero division not possible!" << endl;}
 
@@ -137,6 +127,6 @@
                 sorted_indices[sorted_indices.size()-2-j] = index1;}
             }
         }
-        
+
     return sorted_indices;
     }

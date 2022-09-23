@@ -1,9 +1,11 @@
 #ifndef EVAL_H
 #define EVAL_H
-#include <vector>
+#include <iostream>
+#include <sstream>
 
 #include "params.h"
 #include "print_stats.h"
+#include "utils.h"
 
 using namespace std;
 

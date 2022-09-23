@@ -1,9 +1,10 @@
 #ifndef FILEPRINT_H
 #define FILEPRINT_H
-#include <vector>
+#include <fstream>
 
 #include "params.h"
 #include "pdbstruct.h"
+#include "utils.h"
 
 using namespace std;
 

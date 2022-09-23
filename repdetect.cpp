@@ -1,16 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
 #include "repdetect.h"
 
-using namespace std;
 
     //*detect local repetitions in PDB structure
     Repstruct Repdetect::out(const Pdbstruct& pdbstruct, const Params& params)

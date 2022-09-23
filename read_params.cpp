@@ -1,20 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <vector>
-#include <cstring>
-#include <algorithm>
-#include <windows.h>
-#include <tlhelp32.h>
-#include <bits/stdc++.h>
-#include <ctime>
-#include <dirent.h>
-
-#include "get_align_boxes.h"
-#include "get_path.h"
 #include "read_params.h"
 
-using namespace std;
 
     //*code snippet from "https://gist.github.com/karolisjan/f9b8ac3ae2d41ec0ce70f2feac6bdfaf"
     static string get_current_directory()

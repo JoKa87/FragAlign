@@ -1,6 +1,9 @@
 #ifndef TRANSFORM_BY_HISTORY_H
 #define TRANSFORM_BY_HISTORY_H
-#include <vector>
+
+#include "multiply.h"
+#include "rotate_by_axis.h"
+#include "shift.h"
 
 using namespace std;
 
